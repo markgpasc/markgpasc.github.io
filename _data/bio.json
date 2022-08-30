@@ -2,7 +2,7 @@
   "basics": {
     "name": "Mark Pascual",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
+    "picture": "https://github.com/markgpascual.png",
     "email": "markgp@hawaii.edu",
     "phone": "808-333-4444",
     "website": "https://markgpascual.github.io",
@@ -10,24 +10,24 @@
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "markgpascual", "url": "http://github.com/markgpascual" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" }
+      { "network": "linkedin", "username": "Mark Pascual", "url": "http://linkedin.com/in/markpascual00" }
     ]
   },
   "interests": [
     { "name": "Software Engineering" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Machine Learning" },
+    { "name": "Medical/Healthcare Technology" },
+    { "name": "Game Development" },
+    { "name": "Cyber Security" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "C#", "Javascript", "Assembly"]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Windows", "Ubuntu", "Git/GitHub", "g++" ]
     }
   ],
   "education": [
