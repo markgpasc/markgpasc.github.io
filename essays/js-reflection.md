@@ -20,7 +20,9 @@ My first encounter with JavaScript wasn’t until I began studying Data Structur
 
 ## ES6 New Standards
 
-Working through the ES6 guide introduced me to new ways of copying objects into other variables for use in a function. Prior to learning JS, I would struggle making sure the functions I wrote had the proper return types. Creating functions in JS with ES6 standards showed me elegant and easier ways of creating functions that I had never seen before. Copying array contents and checking for character uniqueness can all be done in one line. Furthermore, returning multiple things such as an array and true is possible. JS and ES6 standards offer an intuitive and readable code implementation that can be easier to understand for programmers looking at the code.
+Working through the ES6 guide introduced me to new ways of copying objects into other variables for use in a function. Prior to learning JS, I would struggle making sure the functions I wrote had the proper return types. Creating functions in JS with ES6 standards showed me elegant and easier ways of creating functions that I had never seen before. For example, copying array contents and checking for character uniqueness can all be done in one line. 
+<br>```function isUnique(str) {return [...new Set(str)].length == [...str].length;}```</br>
+Furthermore, returning multiple things such as an array and true is possible. JS and ES6 standards offer an intuitive and readable code implementation that can be easier to understand for programmers looking at the code.
 
 ## Is JS good?
 
