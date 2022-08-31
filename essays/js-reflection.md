@@ -11,44 +11,21 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/JSES6.jpg">
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
 
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
 
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
+## Initial Thoughts
 
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
+My first encounter with JavaScript wasn’t until I began studying Data Structures and Algorithms. At the time, I was learning C and C++, which gave me the foundation to easily understand programming language syntax. The syntax of JS is much like C, which made JS easier for me to understand. While reading solutions to dynamic programming problems I noticed JS is not strictly typed like C. Oftentimes when reading JS code, it’s easier to make sense of an algorithm implementation due to the functionality JS provides.
 
-Here's what I think: the difficult things will always be difficult.
 
-## In the context of programming
+## ES6 New Standards
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
+Working through the ES6 guide introduced me to new ways of copying objects into other variables for use in a function. Prior to learning JS, I would struggle making sure the functions I wrote had the proper return types. Creating functions in JS with ES6 standards showed me elegant and easier ways of creating functions that I had never seen before. Copying array contents and checking for character uniqueness can all be done in one line. Furthermore, returning multiple things such as an array and true is possible. JS and ES6 standards offer an intuitive and readable code implementation that can be easier to understand for programmers looking at the code.
 
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
+## Is JS good?
 
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
+It can be said that JavaScript is a great language for a new learner to get started with computer programming. Because, a newer programmer will not have to worry about what’s really going on in memory to create a basic function such as copying variables to other variables. A new programmer can write their own code adding functionality to a web application. However, because JS hides a lot of what’s really going on in memory, it can be easy to forget that memory is not infinite and operations come at a hardware cost. If a new programmer chooses to learn JS, I think it’s worth it to look into what functions are really doing in memory.
 
-## In the context of engineering
+## WODs and Athletic Programming Mindset
 
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
-
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
-
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
-
-## In the context of relationships
-
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
-
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
-
-Relationships have always been difficult, and by nature will continue to be so.
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
-
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+Learning any skill takes proper practice and repetition. The athletic programming approach allows me to get reps and practice on a time constraint. So far, I’ve found that being under time constraint allows me to better recall the programming practices I’ve employed to solve a WOD. After reviewing ES6 standards, the WOD allowed me to create multiple solutions in a basic JS way and JSw with ES6 standars. For example, copying function input to an array can be written with ES6 standard in one line using the spread operator.
