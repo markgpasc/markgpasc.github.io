@@ -9,10 +9,10 @@ labels:
   - Computer Science
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/JSES6.jpg">
+<img width="250px" class="rounded float-start pe-4" src="../img/JSES6.jpg" alt = "JS ES6 logo">
 
 
-
+ 
 ## Initial Thoughts
 
 My first encounter with JavaScript wasn’t until I began studying Data Structures and Algorithms. At the time, I was learning C and C++, which gave me the foundation to easily understand programming language syntax. The syntax of JS is much like C, which made JS easier for me to understand. While reading solutions to dynamic programming problems I noticed JS is not strictly typed like C. Oftentimes when reading JS code, it’s easier to make sense of an algorithm implementation due to the functionality JS provides.
