@@ -12,7 +12,7 @@ labels:
 - Network Design
 - Raspberry Pi
 - Programmable Logic Circuits
-  summary: "Build a small scale SCADA environment using legacy industrial equipment"
+summary: "Build a small scale SCADA environment using legacy industrial equipment"
 ---
 ## SCADA Lab and Design
 SCADA Lab is a vertically integrated project within the University of Manoa College of Engineering. It is a team made up of EE, CENG, and ICS students under professor guidance. The goal of this project is to set up a small scale SCADA lab environment using legacy industrial equipment. The system is built to model a substation and remote operation room.
