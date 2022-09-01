@@ -29,7 +29,7 @@ Furthermore, returning multiple things types in an array is possible in JS. JS a
 JavaScript is a great language for a new learner to get started with computer programming. Because, a newer programmer will not have to worry about what’s really going on in memory to create a basic function such as copying variables to other variables. A new programmer can write their own code adding functionality to a web application. However, because JS hides a lot of what’s really going on in memory, it can be easy to forget that memory is not infinite. Computer operations come at a hardware cost. As problems become more complex, it's important to understand how programs manage memory. If a new programmer chooses to learn JS, I think it’s worth it to look into what functions are really doing in memory.
 
 ## WODs and Athletic Programming Mindset
-<img class="rounded float-start pe-4" width="400" height="233" src="../img/keyboard-animegif.gif" alt="quick typing keyboard gif">
+<img class="rounded float-start pe-4" width="244" height="244" src="../img/keyboard-animegif.gif" alt="quick typing keyboard gif">
 
 
 
