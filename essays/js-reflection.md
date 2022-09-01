@@ -30,4 +30,8 @@ JavaScript is a great language for a new learner to get started with computer pr
 
 ## WODs and Athletic Programming Mindset
 <img class="text-center p-4" width="400" height="233" src="../img/keyboard-animegif.gif" alt="quick typing keyboard gif">
+
+
+
+
 Learning any skill takes proper practice and repetition. The athletic programming approach allows me to get reps and practice in while under a time constraint. So far, I’ve found that being under time constraint while working on a WOD is very stressful. However, once I complete the WOD I'm able to better recall the programming practices I’ve employed. After a review of ES6 standards, looking back at a WOD allowed me to create multiple solutions in a basic JS and following ES6 standards. For example, copying function input to an array can be written with ES6 standard in one line using the spread operator. Or, function input can be copied by creating an empty array and using a for loop to copy input to the empty array.
