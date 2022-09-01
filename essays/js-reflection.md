@@ -22,14 +22,13 @@ My first encounter with JavaScript, JS, wasn’t until I began studying Data Str
 
 Working through the ES6 guide introduced me to new ways of copying objects into other variables for use in a function. Prior to learning JS, I would struggle making sure the functions I wrote had the proper return types. Creating functions in JS with ES6 standards showed me elegant and easier ways of creating functions that I had never seen before. For example, copying array contents and checking for character uniqueness can all be done in one line. 
 <br>```function isUnique(str) {return [...new Set(str)].length == [...str].length;}```<br>
-Furthermore, returning multiple things types in an array is possible in JS. JS and ES6 standards offer an intuitive and readable code implementation that can be easier to understand for programmers looking at the code.
+Furthermore, returning multiple types in an array is possible. JS and ES6 standards offer an intuitive and readable code implementation that can be easier to understand for programmers looking at the code.
 
 ## Is JS good?
 
 JavaScript is a great language for a new learner to get started with computer programming. Because, a newer programmer will not have to worry about what’s really going on in memory to create a basic function such as copying variables to other variables. A new programmer can write their own code adding functionality to a web application. However, because JS hides a lot of what’s really going on in memory, it can be easy to forget that memory is not infinite. Computer operations come at a hardware cost. As problems become more complex, it's important to understand how programs manage memory. If a new programmer chooses to learn JS, I think it’s worth it to look into what functions are really doing in memory.
 
 ## WODs and Athletic Programming Mindset
-<img class="rounded float-start pe-4" width="244" height="244" src="../img/keyboard-animegif.gif" alt="quick typing keyboard gif">
 
 
 
