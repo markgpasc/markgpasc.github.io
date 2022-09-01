@@ -9,7 +9,7 @@ labels:
   - Computer Science
 ---
 
-<img width="250px" class="rounded float-start pe-4" src="../img/JSES6.jpg" alt = "JS ES6 logo">
+<img width="250px" class="rounded float-start pe-4" src="../img/jsreflection/JSES6.jpg" alt = "JS ES6 logo">
 
 
  
