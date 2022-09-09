@@ -57,7 +57,7 @@ ________________________________________________________________________________
 
 
 ### A Bad Question Wastes Time 
-Submitting a question to a forum such as StackOverflow takes time. When the question is not clear or detail is not provided, it wastes the time of the author and people attempting to help. The following post is headed with a statement instead of a question. The body provides no detail with how the author tried to implement their solution. The post gained 5 downvotes. Because there is lack of detail in the body, a reader can speculate that the author did not take time to search the web for an algorithm to implement reversing a linked list.
+Submitting a question to a forum such as StackOverflow takes time. When the question is not clear or detail is not provided, it wastes the time of the author and people attempting to help. The following post is headed with a statement instead of a question. The body provides no detail with how the author tried to implement their solution. The post gained 5 downvotes. Because there is lack of detail in the body, a reader can speculate that the author did not take time to search the web for an algorithm to implement reversing a linked list. 
 ________________________________________________________________________________________________________
 
 Asked by Vivek M. on [StackOverflow Page](https://stackoverflow.com/questions/38718013/reverse-a-linked-list-in-c).
