@@ -2,6 +2,7 @@
 layout: project
 type: project
 title: "Autonomous Drones"
+image: img/uhdt/uhdtdronelogo.jpeg
 # All dates must be YYYY-MM-DD format!
 date: 2020
 published: true
