@@ -30,7 +30,7 @@ The following are guidelines given by Raymond to think of before asking a questi
 6. Try to find an answer by asking a skilled friend.
 7. If you're a programmer, try to find an answer by reading the source code.
 
-Once you've gone through searching for answers yourself, it's time to formulate your question. The question should include as much detail for the problem being faced, as well as documentation of sources or different ideas that have been tried.
+Once you've gone through searching for answers yourself, it's time to formulate your question. The question should include as much detail for the problem being faced, as well as documentation of sources or different ideas that have been tried. A properly formatted question will lead to a greater response from the community on the forum. 
 
 ### Smart Questions Yield Effective Answers
 The following question was asked on StackOverflow regarding methods to copy the contents of an array into another array. The question clearly states a problem and detail in regard to the answer they are looking for. Along with the question, the author includes their knowledge of an existing method in the Python programming language and a JS method that results in the same outcome, but is achieved with different behaviour. The provided code block specifies the type of behavior the method will have on an array. The question received 1321 upvotes and garnered answers that provided different methods for supporting browsers.  
