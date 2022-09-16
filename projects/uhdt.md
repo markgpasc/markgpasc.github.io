@@ -9,6 +9,7 @@ labels:
 - Drones
 - UAV
 - Search Algorithms
+summary: Build a drone for AUVSI SUAS competition
 ---
 
 <img width="600px" class="rounded float-start pe-4" src="../img/uhdt/DroneTechnologies.png">

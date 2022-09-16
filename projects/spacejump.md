@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+image: ../img/spacejump/unitylogo.png
 title: "The Unity Experience"
 # All dates must be YYYY-MM-DD format!
 date: 2021
@@ -9,6 +10,7 @@ labels:
 - Game Development 
 - Unity game engine
 - C#
+summary: Recreating Doodle Jump with Unity game engine 
 ---
 
 <img width="300px" class="rounded float-start pe-4" src="../img/spacejump/spacejumpscenecapture.png">
