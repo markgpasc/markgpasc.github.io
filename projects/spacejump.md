@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: project
+type: project
 title: "The Unity Experience"
 # All dates must be YYYY-MM-DD format!
 date: 2021

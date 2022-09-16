@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: project
+type: project
 title: "Autonomous Drones"
 # All dates must be YYYY-MM-DD format!
 date: 2020
