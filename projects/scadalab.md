@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: ../img/scada/scadalogo.png
+image: ../img/scadalab/scadaL.png
 title: "SCADA Lab"
 date: 2022
 published: true
