@@ -1,12 +1,13 @@
 ---
 layout: essay
 type: essay
-title: ""
+title: "SWE, Where I Want to Be"
 # All dates must be YYYY-MM-DD format!
 date: 2022-08-31
 published: true
 labels:
 - Computer Science
+- Computer Engineering
 - Software Engineering
 - Career
 ---
