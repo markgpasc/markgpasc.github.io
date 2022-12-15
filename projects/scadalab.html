@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="SCADA Lab | Mark Pascual | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/markgpascual.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mark Pascual | Professional Portfolio">
+    <meta property="og:url" content="https://markgpascual.github.io/projects/scadalab.html">
+    <meta property="og:title" content="SCADA Lab | Mark Pascual | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/markgpascual.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>SCADA Lab | Mark Pascual | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Mark Pascual</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">SCADA Lab</h1>
+ <p><img width="400px" class="rounded float-start pe-4" src="../img/scadalab/simplescadadiagram.png" alt="model SCADA diagram" /></p>
+<h2 id="scada-lab-and-initial-design">SCADA Lab and Initial Design</h2>
+<p>SCADA Lab is a vertically integrated project within the University of Manoa College of Engineering. It is a team made up of EE, CENG, and ICS students under professor guidance. The goal of this project is to set up a small scale SCADA lab environment and implement security features with legacy industrial equipment. Along with the different SCADA equipment, the lab includes multiple RaspberryPis to run software to increase the security of the SCADA Lab. The system is built to model a substation and remote operation room. One simple security design was implemented to allow remote connection to SCADA hardware if the lights in the room are on.</p>
+
+<h2 id="networking-and-system-administration">Networking and System Administration</h2>
+<p><img width="400px" class="rounded float-start pe-4" src="../img/scadalab/SCADAnetworkmap.png" alt="UHManoa SCADALab Network Map" />
+During my time in the project, I was assigned roles for networking and system administration. Stepping into the roles of networking and system administrator was not an easy task. My prior experiences with either of the subjects was minimal and included connecting computers to my home network and allowing a router to handle the magic of assigning IP addresses.</p>
+
+<p>For networking, the first task was setting up a network diagram splitting the network into different subnetworks for various devices to connect to. One thing I learned while creating the network map was reserving certain IP addresses for certain devices with a MAC address. For the VLAN I learned about tagged traffic and configuring the RaspberryPi’s connected to different parts of the network to accept tagged traffic.</p>
+
+<h2 id="teamwork-makes-the-dream-work">Teamwork Makes The Dream Work</h2>
+<p>Without the network and different devices connected to it, there would be no real world model of a SCADA network. As a team, we were working on getting the SCADA equiptment up and running on the network. For example, this included contacting vendors of the equipment and speaking to knowledgable representatives to help SSH into equipment. A big achievement for the team was being able to trip a circuit remotely from one side of the SCADA Lab network.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

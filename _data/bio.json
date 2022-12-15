@@ -1,0 +1,80 @@
+{
+  "basics": {
+    "name": "Mark Pascual",
+    "label": "Student",
+    "picture": "https://github.com/markgpascual.png",
+    "email": "markgp@hawaii.edu",
+    "phone": "808-358-4780",
+    "website": "https://markgpascual.github.io",
+    "summary": "I am studying for a B.S. in Computer Engineering in the Department of Electrical and Computer Engineering at the University of Hawaii. I expect to graduate in Fall, 2022.",
+    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "markgpascual", "url": "http://github.com/markgpascual" },
+      { "network": "linkedin", "username": "Mark Pascual", "url": "http://linkedin.com/in/markpascual00" }
+    ]
+  },
+  "interests": [
+    { "name": "Software Engineering" },
+    { "name": "Machine Learning" },
+    { "name": "Medical/Healthcare Technology" },
+    { "name": "Game Development" },
+    { "name": "Cyber Security" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "C#", "Javascript", "Assembly"]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Windows", "Linux", "Git/GitHub" ]
+    },
+    {
+      "name":"Hardware Tools",
+      "keywords":["Soldering, Arduino, Raspberry Pi"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Engineering (expected Spring, 2018)",
+      "studyType": "B.S.",
+      "startDate": "2018",
+      "endDate": "Present",
+      "courses": [ "Circuits I & II","Digital Design", "Intro to Programming C", "Intro to OOP C++", "Data Structure & Algorithms",
+        "Microelectronic Circuits"
+      ]
+    }
+  ],
+  "work": [
+
+  ],
+  "volunteer": [
+    {
+      "organization": "",
+      "website": "",
+      "position": "Professional organization involvement",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Member, ACM Manoa, Present",
+        "Associate Board Chair, IEEE Student Branch, UH Manoa, 2021",
+        "Member, IEEE Student Branch, 2019-Present"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's List",
+      "date": "2019",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Awarded to students that earn a GPA of at least 3.5 for that semester."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

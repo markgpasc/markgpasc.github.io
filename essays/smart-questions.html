@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Smart Questions Analysis | Mark Pascual | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/markgpascual.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mark Pascual | Professional Portfolio">
+    <meta property="og:url" content="https://markgpascual.github.io/essays/smart-questions.html">
+    <meta property="og:title" content="Smart Questions Analysis | Mark Pascual | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/markgpascual.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Smart Questions Analysis | Mark Pascual | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Mark Pascual</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Smart Questions Analysis</h1>
+  <span class="date">08 Sep 2022</span>
+  <hr>
+  <p><img width="400px" class="rounded float-start pe-4" src="../img/smart-questions/questionmark.jpeg" /></p>
+
+<h3 id="think-before-you-ask">Think Before You Ask</h3>
+<p>In every class from high school to college, the most repeated phrase during a lecture has to be “Are there any questions?” In all my years of schooling I have asked only a handful of questions.  Coming up with a good question on the fly while learning new material can be tough. However, in the scope of software engineering, questions tend to arise during code implementation, where errors are often thrown during execution or lack of experience leads to not knowing how to implement a solution. Asking a smart question leads to efficient and effective use of your time.</p>
+
+<p>According to Eric Steven Raymond in <a href="http://www.catb.org/esr/faqs/smart-questions.html">How To Ask Questions The Smart Way</a>, asking a question involves searching for the answer first. Trying to understand the problem at hand leads you down a path where you can learn something on the way. Showing proof that you searched first before asking is important to those who may answer the question. Oftentimes a good question can provide answers with examples of proper code or a source that leads to the answer.</p>
+
+<h3 id="formulating-a-question">Formulating a Question</h3>
+
+<p>The following are guidelines given by Raymond to think of before asking a question:</p>
+<ol>
+  <li>Try to find an answer by searching the archives of the forum or mailing list you plan to post to.</li>
+  <li>Try to find an answer by searching the Web.</li>
+  <li>Try to find an answer by reading the manual.</li>
+  <li>Try to find an answer by reading a FAQ.</li>
+  <li>Try to find an answer by inspection or experimentation.</li>
+  <li>Try to find an answer by asking a skilled friend.</li>
+  <li>If you’re a programmer, try to find an answer by reading the source code.</li>
+</ol>
+
+<p>Once you’ve gone through searching for answers yourself, it’s time to formulate your question. The question should include as much detail for the problem being faced, as well as documentation of sources or different ideas that have been tried. A properly formatted question will lead to a greater response from the community on the forum.</p>
+
+<h3 id="smart-questions-yield-effective-answers">Smart Questions Yield Effective Answers</h3>
+<p>The following question was asked on StackOverflow regarding methods to copy the contents of an array into another array. The question clearly states a problem and detail in regard to the answer they are looking for. Along with the question, the author includes their knowledge of an existing method in the Python programming language and a JS method that results in the same outcome, but is achieved with different behaviour. The provided code block specifies the type of behavior the method will have on an array. The question received 1321 upvotes and garnered answers that provided different methods for supporting browsers.<br />
+<strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong>__</p>
+
+<p>Asked by DzinX on <a href="https://stackoverflow.com/questions/1374126/how-to-extend-an-existing-javascript-array-with-another-array-without-creating">StackOverflow Page</a>.</p>
+<h4 id="how-to-extend-an-existing-javascript-array-with-another-array-without-creating-a-new-array"><em>“How to extend an existing JavaScript array with another array, without creating a new array?”</em></h4>
+
+<p>There doesn’t seem to be a way to extend an existing JavaScript array with another array, i.e. to emulate Python’s extend method.</p>
+
+<p>I want to achieve the following:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; a = [1, 2]
+[1, 2]
+&gt;&gt; b = [3, 4, 5]
+[3, 4, 5]
+&gt;&gt;&gt; SOMETHING HERE
+&gt;&gt;&gt; a
+[1, 2, 3, 4, 5]`
+</code></pre></div></div>
+<p>I know there’s a a.concat(b) method, but it creates a new array instead of simply extending the first one. I’d like an algorithm that works efficiently when a is significantly larger than b (i.e. one that does not copy a).</p>
+
+<hr />
+
+<h3 id="a-bad-question-wastes-time">A Bad Question Wastes Time</h3>
+<p>Submitting a question to a forum such as StackOverflow takes time. When the question is not clear or detail is not provided, it wastes the time of the author and people attempting to help. The following post is headed with a statement instead of a question. The body provides no detail with how the author tried to implement their solution. The post gained 5 downvotes. Because there is lack of detail in the body, a reader can speculate that the author did not take time to search the web for an algorithm to implement reversing a linked list.</p>
+
+<hr />
+
+<p>Asked by Vivek M. on <a href="https://stackoverflow.com/questions/38718013/reverse-a-linked-list-in-c">StackOverflow Page</a>.</p>
+<h4 id="reverse-a-linked-list-in-c"><em>“Reverse a linked list in C”</em></h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void reverse(node *pointer) {
+    node *head, *curr;
+    head = pointer;
+    curr = head;
+    while (head != NULL) {
+        while (curr -&gt; next != NULL) {
+            curr = curr -&gt; next;
+        }
+        printf("%d", curr -&gt; data);
+        free(curr);
+        curr = head;
+    }
+}
+</code></pre></div></div>
+<p>I don’t know what’s wrong with the code it prints only the last node of the linked list while trying to reverse it.</p>
+
+<hr />
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

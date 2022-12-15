@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="The First JS Journey | Mark Pascual | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/markgpascual.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mark Pascual | Professional Portfolio">
+    <meta property="og:url" content="https://markgpascual.github.io/essays/js-reflection.html">
+    <meta property="og:title" content="The First JS Journey | Mark Pascual | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/markgpascual.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>The First JS Journey | Mark Pascual | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Mark Pascual</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">The First JS Journey</h1>
+  <span class="date">31 Aug 2022</span>
+  <hr>
+  <p><img width="250px" class="rounded float-start pe-4" src="../img/jsreflection/JSES6.jpg" alt="JS ES6 logo" /></p>
+
+<h2 id="initial-thoughts">Initial Thoughts</h2>
+
+<p>My first encounter with JavaScript, JS, wasn’t until I began studying Data Structures and Algorithms. At the time, I was learning C and C++, which gave me the foundation to easily understand programming language syntax. The syntax of JS is much like C, which made JS easier for me to understand. While reading solutions to dynamic programming problems I noticed JS is not strictly typed like C. Oftentimes when reading JS code, it’s easier to make sense of an algorithm implementation due to the functionality JS provides.</p>
+
+<h2 id="the-js-way-and-es6">The JS way and ES6</h2>
+
+<p>Working through the ES6 guide introduced me to new ways of copying objects into other variables for use in a function. Prior to learning JS, I would struggle making sure the functions I wrote had the proper return types. Creating functions in JS with ES6 standards showed me elegant and easier ways of creating functions that I had never seen before. For example, copying array contents and checking for character uniqueness can all be done in one line. 
+<br /><code class="language-plaintext highlighter-rouge">function isUnique(str) {return [...new Set(str)].length == [...str].length;}</code><br />
+Furthermore, returning multiple types in an array is possible. JS and ES6 standards offer an intuitive and readable code implementation that can be easier to understand for programmers looking at the code.</p>
+
+<h2 id="is-js-good">Is JS good?</h2>
+
+<p>JavaScript is a great language for a new learner to get started with computer programming. Because, a newer programmer will not have to worry about what’s really going on in memory to create a basic function such as copying variables to other variables. A new programmer can write their own code adding functionality to a web application. However, because JS hides a lot of what’s really going on in memory, it can be easy to forget that memory is not infinite. Computer operations come at a hardware cost. As problems become more complex, it’s important to understand how programs manage memory. If a new programmer chooses to learn JS, I think it’s worth it to look into what functions are really doing in memory.</p>
+
+<h2 id="wods-and-athletic-programming-mindset">WODs and Athletic Programming Mindset</h2>
+
+<p>Learning any skill takes proper practice and repetition. The athletic programming approach allows me to get reps and practice in while under a time constraint. So far, I’ve found that being under time constraint while working on a WOD is very stressful. However, once I complete the WOD I’m able to better recall the programming practices I’ve employed. After a review of ES6 standards, looking back at a WOD allowed me to create multiple solutions in a basic JS and following ES6 standards. For example, copying function input to an array can be written with ES6 standard in one line using the spread operator. Or, function input can be copied by creating an empty array and using a for loop to copy input to the empty array.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

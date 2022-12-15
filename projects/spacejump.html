@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="The Unity Experience | Mark Pascual | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/markgpascual.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mark Pascual | Professional Portfolio">
+    <meta property="og:url" content="https://markgpascual.github.io/projects/spacejump.html">
+    <meta property="og:title" content="The Unity Experience | Mark Pascual | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/markgpascual.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>The Unity Experience | Mark Pascual | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Mark Pascual</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">The Unity Experience</h1>
+ <p><img width="300px" class="rounded float-start pe-4" src="../img/spacejump/spacejumpscenecapture.png" /></p>
+
+<h2 id="project-space-jump">Project Space Jump</h2>
+
+<p>Project Space Jump is a platform game that I created for EE 369, an interactive media systems and game design course. I worked by myself to implement my own recreation of Doodle Jump, a popular game on the App Store. Space Jump was made using the Unity game engine and C#. By the end, I was able to familiarize myself with Unity, C#, and the concept of a game loop.</p>
+
+<h2 id="unity-environment-and-c">Unity Environment and C#</h2>
+
+<p>Working with Unity was a new experience for me. Prior to using Unity, the only game development I had done was with SFML and C++. The first thing I noticed was the ease in setting up a simple game environment. In a few hours, I was able to understand the basics of Unity and create game objects. Game objects are the core of any interactive game. Game objects make up a player and the environment the player interacts with. However, game objects alone are boring. In order to make things interesting, scripts are used to define mechanics like player movement. C# is used to program different behaviors for game objects.</p>
+
+<h2 id="unity-game-objects">Unity Game Objects</h2>
+<p>An important aspect of Unity is the components available to be applied to game objects. One example of this is adding physics components to game objects. Physics components are important for platformer games because they can be used to define interactions between a player object and game objects in the environment. I was able to use physics components in the different ground objects in Jump to have different properties. I attached physics components to a grass, dirt, and jelly game object for platforms. With the physics components I was able to detect when a player collided with the platform and set different values of gravity to be applied to a player object upon collision with the different ground objects.</p>
+
+<h2 id="refactoring">Refactoring</h2>
+<p>If I were to refactor the game, one major change would be in with the scripts. I created the project in a week and did not think of the D.R.Y, don’t repeat yourself, concept. Below is a script attached to a basic platform.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public class Platform : MonoBehaviour
+{
+    [Header("Set in Inspector")]
+    public float jumpVelocity = 10f;
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        // coming from top of platform
+        if (collision.relativeVelocity.y &lt; 0f) 
+        {
+            Rigidbody2D rb = collision.collider.GetComponent&lt;Rigidbody2D&gt;();
+            if (rb != null)
+            {
+                Vector2 velocity = rb.velocity;
+                velocity.y = jumpVelocity;
+                rb.velocity = velocity;
+
+            }
+            SimpleAudioManager.Instance.PlayGrassJump();
+        }   
+    }
+}
+</code></pre></div></div>
+<p>I had multiple platforms which I created different scripts for. In order to follow D.R.Y, I would have to create only one platform script and attach it to different platform game objects. The platforms have a jumpVelocity variable for the amount of force applied to a different game object. In the platform script, I would have a switch case to add a force based on the name of the game object it is assigned to.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Overall, learning to work with the Unity engine was a great experience for me. Once I created Jump, I was looking at other games and wondering how they could be implemented in Unity. Programming in C# was new to me, but the concepts from an object-oriented language like C++ was equivalent. In the future I would like to recreate more popular games with Unity.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
